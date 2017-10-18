@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
 
 /* GET about page. */
 router.get('/about', function(req, res, next) {
-  res.render('about', { name: 'Most Awsome Power, Mr. Sparkels', author: 'Eric H' });
+  res.render('about', { name: 'Most Awsome Power, Mr. Sparkels', author: 'Eric H' , description : " This is simple currency converter"});
 });
 
 module.exports = router;
